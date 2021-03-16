@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31AF4A8681A12BECC38C23C7 /* Pods_webrtc_mediasoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAEBA2AD98E45000A64A53E /* Pods_webrtc_mediasoup.framework */; };
 		E98FB97124542C9200F1F643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB97024542C9200F1F643 /* AppDelegate.m */; };
 		E98FB97424542C9200F1F643 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB97324542C9200F1F643 /* SceneDelegate.m */; };
 		E98FB97724542C9200F1F643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB97624542C9200F1F643 /* ViewController.m */; };
@@ -14,9 +15,21 @@
 		E98FB97C24542C9600F1F643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98FB97B24542C9600F1F643 /* Assets.xcassets */; };
 		E98FB97F24542C9600F1F643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98FB97D24542C9600F1F643 /* LaunchScreen.storyboard */; };
 		E98FB98224542C9600F1F643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB98124542C9600F1F643 /* main.m */; };
+		E98FB98B24543DCB00F1F643 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB98A24543DCB00F1F643 /* Utils.m */; };
+		E98FB98E24543EA800F1F643 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB98D24543EA800F1F643 /* NSString+Utils.m */; };
+		E98FB99224543F1400F1F643 /* EchoSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FB99124543F1400F1F643 /* EchoSocket.m */; };
+		E98FBAE5245B25D000F1F643 /* Requset.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FBAE4245B25D000F1F643 /* Requset.m */; };
+		E98FBAE8245D19DB00F1F643 /* MediaCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FBAE7245D19DB00F1F643 /* MediaCapture.m */; };
+		E98FBAEB245D9A4500F1F643 /* RoomClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FBAEA245D9A4500F1F643 /* RoomClient.m */; };
+		E98FBAEE245DA3A000F1F643 /* VieoRoomPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FBAED245DA3A000F1F643 /* VieoRoomPresenter.m */; };
+		E98FBAF1245DA8BE00F1F643 /* RendererData.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FBAF0245DA8BE00F1F643 /* RendererData.m */; };
+		E98FBAF4245DBFC100F1F643 /* MediaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FBAF3245DBFC100F1F643 /* MediaViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21122ABF6A6C421E5A8A00FF /* Pods-webrtc_mediasoup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_mediasoup.debug.xcconfig"; path = "Target Support Files/Pods-webrtc_mediasoup/Pods-webrtc_mediasoup.debug.xcconfig"; sourceTree = "<group>"; };
+		3DAEBA2AD98E45000A64A53E /* Pods_webrtc_mediasoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webrtc_mediasoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFADC538C72FB6E618ED946 /* Pods-webrtc_mediasoup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc_mediasoup.release.xcconfig"; path = "Target Support Files/Pods-webrtc_mediasoup/Pods-webrtc_mediasoup.release.xcconfig"; sourceTree = "<group>"; };
 		E98FB96C24542C9200F1F643 /* webrtc_mediasoup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webrtc_mediasoup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98FB96F24542C9200F1F643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E98FB97024542C9200F1F643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +42,25 @@
 		E98FB97E24542C9600F1F643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E98FB98024542C9600F1F643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E98FB98124542C9600F1F643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E98FB98924543DCB00F1F643 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		E98FB98A24543DCB00F1F643 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		E98FB98C24543EA800F1F643 /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		E98FB98D24543EA800F1F643 /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		E98FB99024543F1400F1F643 /* EchoSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EchoSocket.h; sourceTree = "<group>"; };
+		E98FB99124543F1400F1F643 /* EchoSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EchoSocket.m; sourceTree = "<group>"; };
+		E98FB99324544F0500F1F643 /* MessageObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageObserver.h; sourceTree = "<group>"; };
+		E98FBAE3245B25D000F1F643 /* Requset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Requset.h; sourceTree = "<group>"; };
+		E98FBAE4245B25D000F1F643 /* Requset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Requset.m; sourceTree = "<group>"; };
+		E98FBAE6245D19DB00F1F643 /* MediaCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaCapture.h; sourceTree = "<group>"; };
+		E98FBAE7245D19DB00F1F643 /* MediaCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaCapture.m; sourceTree = "<group>"; };
+		E98FBAE9245D9A4500F1F643 /* RoomClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomClient.h; sourceTree = "<group>"; };
+		E98FBAEA245D9A4500F1F643 /* RoomClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomClient.m; sourceTree = "<group>"; };
+		E98FBAEC245DA3A000F1F643 /* VieoRoomPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VieoRoomPresenter.h; sourceTree = "<group>"; };
+		E98FBAED245DA3A000F1F643 /* VieoRoomPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VieoRoomPresenter.m; sourceTree = "<group>"; };
+		E98FBAEF245DA8BE00F1F643 /* RendererData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RendererData.h; sourceTree = "<group>"; };
+		E98FBAF0245DA8BE00F1F643 /* RendererData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RendererData.m; sourceTree = "<group>"; };
+		E98FBAF2245DBFC100F1F643 /* MediaViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaViewCell.h; sourceTree = "<group>"; };
+		E98FBAF3245DBFC100F1F643 /* MediaViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +68,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31AF4A8681A12BECC38C23C7 /* Pods_webrtc_mediasoup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F90238CB5A3AD2CD2FFE1B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21122ABF6A6C421E5A8A00FF /* Pods-webrtc_mediasoup.debug.xcconfig */,
+				BFFADC538C72FB6E618ED946 /* Pods-webrtc_mediasoup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E98FB96324542C9200F1F643 = {
 			isa = PBXGroup;
 			children = (
 				E98FB96E24542C9200F1F643 /* webrtc_mediasoup */,
 				E98FB96D24542C9200F1F643 /* Products */,
+				7F90238CB5A3AD2CD2FFE1B4 /* Pods */,
+				FE28F2B6ECDD74B2330FB336 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +105,25 @@
 		E98FB96E24542C9200F1F643 /* webrtc_mediasoup */ = {
 			isa = PBXGroup;
 			children = (
+				E98FBAE2245B259F00F1F643 /* Request */,
+				E98FB98F24543EFB00F1F643 /* socket */,
+				E98FB98824543DAB00F1F643 /* utils */,
 				E98FB96F24542C9200F1F643 /* AppDelegate.h */,
 				E98FB97024542C9200F1F643 /* AppDelegate.m */,
 				E98FB97224542C9200F1F643 /* SceneDelegate.h */,
 				E98FB97324542C9200F1F643 /* SceneDelegate.m */,
 				E98FB97524542C9200F1F643 /* ViewController.h */,
 				E98FB97624542C9200F1F643 /* ViewController.m */,
+				E98FBAE9245D9A4500F1F643 /* RoomClient.h */,
+				E98FBAEA245D9A4500F1F643 /* RoomClient.m */,
+				E98FBAE6245D19DB00F1F643 /* MediaCapture.h */,
+				E98FBAE7245D19DB00F1F643 /* MediaCapture.m */,
+				E98FBAEC245DA3A000F1F643 /* VieoRoomPresenter.h */,
+				E98FBAED245DA3A000F1F643 /* VieoRoomPresenter.m */,
+				E98FBAF2245DBFC100F1F643 /* MediaViewCell.h */,
+				E98FBAF3245DBFC100F1F643 /* MediaViewCell.m */,
+				E98FBAEF245DA8BE00F1F643 /* RendererData.h */,
+				E98FBAF0245DA8BE00F1F643 /* RendererData.m */,
 				E98FB97824542C9200F1F643 /* Main.storyboard */,
 				E98FB97B24542C9600F1F643 /* Assets.xcassets */,
 				E98FB97D24542C9600F1F643 /* LaunchScreen.storyboard */,
@@ -76,6 +133,44 @@
 			path = webrtc_mediasoup;
 			sourceTree = "<group>";
 		};
+		E98FB98824543DAB00F1F643 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E98FB98924543DCB00F1F643 /* Utils.h */,
+				E98FB98A24543DCB00F1F643 /* Utils.m */,
+				E98FB98C24543EA800F1F643 /* NSString+Utils.h */,
+				E98FB98D24543EA800F1F643 /* NSString+Utils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E98FB98F24543EFB00F1F643 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				E98FB99024543F1400F1F643 /* EchoSocket.h */,
+				E98FB99124543F1400F1F643 /* EchoSocket.m */,
+				E98FB99324544F0500F1F643 /* MessageObserver.h */,
+			);
+			path = socket;
+			sourceTree = "<group>";
+		};
+		E98FBAE2245B259F00F1F643 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E98FBAE3245B25D000F1F643 /* Requset.h */,
+				E98FBAE4245B25D000F1F643 /* Requset.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		FE28F2B6ECDD74B2330FB336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DAEBA2AD98E45000A64A53E /* Pods_webrtc_mediasoup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E98FB98524542C9600F1F643 /* Build configuration list for PBXNativeTarget "webrtc_mediasoup" */;
 			buildPhases = (
+				3292DC7904BE12561142B1EB /* [CP] Check Pods Manifest.lock */,
 				E98FB96824542C9200F1F643 /* Sources */,
 				E98FB96924542C9200F1F643 /* Frameworks */,
 				E98FB96A24542C9200F1F643 /* Resources */,
+				A1AE04E88E848834AF51E06B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +238,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3292DC7904BE12561142B1EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webrtc_mediasoup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AE04E88E848834AF51E06B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webrtc_mediasoup/Pods-webrtc_mediasoup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webrtc_mediasoup/Pods-webrtc_mediasoup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webrtc_mediasoup/Pods-webrtc_mediasoup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E98FB96824542C9200F1F643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E98FB97724542C9200F1F643 /* ViewController.m in Sources */,
+				E98FB98E24543EA800F1F643 /* NSString+Utils.m in Sources */,
 				E98FB97124542C9200F1F643 /* AppDelegate.m in Sources */,
 				E98FB98224542C9600F1F643 /* main.m in Sources */,
+				E98FB98B24543DCB00F1F643 /* Utils.m in Sources */,
+				E98FBAF4245DBFC100F1F643 /* MediaViewCell.m in Sources */,
+				E98FBAEB245D9A4500F1F643 /* RoomClient.m in Sources */,
+				E98FBAEE245DA3A000F1F643 /* VieoRoomPresenter.m in Sources */,
+				E98FBAE5245B25D000F1F643 /* Requset.m in Sources */,
+				E98FBAE8245D19DB00F1F643 /* MediaCapture.m in Sources */,
+				E98FBAF1245DA8BE00F1F643 /* RendererData.m in Sources */,
+				E98FB99224543F1400F1F643 /* EchoSocket.m in Sources */,
 				E98FB97424542C9200F1F643 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,15 +435,18 @@
 		};
 		E98FB98624542C9600F1F643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21122ABF6A6C421E5A8A00FF /* Pods-webrtc_mediasoup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVX59777BM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = webrtc_mediasoup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nic.webrtc-mediasoup";
+				PRODUCT_BUNDLE_IDENTIFIER = "nic.webrtc-mediasoup.webrtc1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,15 +454,18 @@
 		};
 		E98FB98724542C9600F1F643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFADC538C72FB6E618ED946 /* Pods-webrtc_mediasoup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVX59777BM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = webrtc_mediasoup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nic.webrtc-mediasoup";
+				PRODUCT_BUNDLE_IDENTIFIER = "nic.webrtc-mediasoup.webrtc1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

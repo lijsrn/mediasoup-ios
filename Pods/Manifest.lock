@@ -1,0 +1,20 @@
+PODS:
+  - mediasoup_ios_client (1.2.4)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - mediasoup_ios_client
+  - SocketRocket
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - mediasoup_ios_client
+    - SocketRocket
+
+SPEC CHECKSUMS:
+  mediasoup_ios_client: e07ee3d48cf8c90e50c86b3cb377410aa37b947c
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 7dcc9aec324241e8ba5eb53c67d08decc531c027
+
+COCOAPODS: 1.9.0.beta.2
